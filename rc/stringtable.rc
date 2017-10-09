@@ -1,0 +1,75 @@
+STRINGTABLE
+{
+    IDS_HELLO,   "Hello"
+    IDS_GOODBYE, "Goodbye"
+}
+
+STRINGTABLE
+BEGINIDS_CHINESESTRING L"\x5e2e\x52a9"
+IDS_RUSSIANSTRING L"\x0421\x043f\x0440\x0430\x0432\x043a\x0430"
+IDS_ARABICSTRING L"\x062a\x0639\x0644\x064a\x0645\x0627\x062a"
+END
+
+STRINGTABLE
+BEGIN
+IDS_1 L"5\x00BC-Inch Floppy Disk"
+IDS_1a "5\xBC-Inch Floppy Disk"
+IDS_2 L"Don't confuse \x2229 (intersection) with \x222A (union)"
+IDS_3 "Copyright \xA92001"
+IDS_3a L"Copyright \x00a92001"
+END
+
+STRINGTABLE
+BEGIN
+IDS_VERYLONGSTRING "blah blah blah blah blah blah \
+blah blah blah blah blah blah \
+blah blah blah blah blah blah \
+blah blah blah blah blah blah"
+END
+
+STRINGTABLE
+BEGIN
+	IDS_FRMT_UPDATE_COMPLETE_MESSAGE "%s will automatically check for driver and Windows® updates. These updates will help maintain the stability, security and performance of your computer."
+	IDS_FRMT_SCHEDULER_LINK "Click here to change when %s checks for updates."
+	IDS_CREATE_RESTORE_POINT_AUTO "system-restore point."
+	IDS_TOOLTIP_WINDOWS_UPDATE "If you want to skip this process, click ""Stop Scan."""
+
+	IDS_BACKUP_BUTTON "Backup"	
+
+	IDS_ATTENTION "Attention:"
+	IDS_QUESTION_INSTALL_NOW "It is recommended that you install the latest drivers for this device. Would you like to Install now?"
+	IDS_DOWNLOADING_FILE "Downloading File"
+IDS_HELP "Displays blah\n\n\
+blah filename [/T] [/E] [/C] [/G blah:blah [...]] [/R blah [...]]\n\
+               [/P blah:blah [...]] [/D blah [...]]\n\
+   blah      blah blah.\n\
+   /T            blah blah blah blah blah blah blah blah\n\
+                 blah blah blah blah blah blah blah blah.\n\
+   /E            blah blah blah blah blah blah blah blah\n\\n\
+   /C            blah blah blah blah blah blah blah blah\n\\n\
+   /G blah:blah  blah blah blah blah blah blah blah blah\n\.\n\
+                 blah blah blah blah: blah\n\\n\
+                              W  blah blah blah blah\n\
+                              C  blah blah blah blah\n\
+                              F  blah blah blah blah\n\
+   /R user       blah blah blah blah (only valid with /E).\n\
+   /P blah:blah  blah blah blah blah.\n\
+                 blah can be: N  blah\n\
+                              R  blah\n\
+                              W  Write\n\
+                              C  blah (write)\n\
+                              F  blah control\n\
+   /D user       blah blah user access.\n\
+blah blah blah blah blah blah blah blah.\n\
+blah blah blah blah blah blah blah blah.\n\
+Alah:\n\
+   CI - blah blah blah.\n\
+        blah blah blah.\n\
+   OI - blah blah blahblah blah blah.\n\
+        blah blah blah.\n\
+   IO - blah blah blahblah blah blah.\n\
+        blah blah blah fwile/dwirectory.\n"
+  IDS_REQUESTING1 "Requesting Driver Updates"
+	IDS_REQUESTING2 "Requesting Software Updates"
+END
+
