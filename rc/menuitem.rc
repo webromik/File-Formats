@@ -1,0 +1,33 @@
+IDR_TRAYMENU MENU
+BEGIN
+    POPUP ""
+    BEGIN
+        MENUITEM
+ "&Open user interface",  ID__OPENAVAST
+        POPUP " shields &control"
+        BEGIN
+            MENUITEM "&Enable all 
+shields",         ID_ENABLE_SHIELDS
+            MENUITEM SEPARATOR
+            MENUITEM    "Disable for 20 
+&minutes"fff"ff"   ,     ID_DISABLEAVAST , INACTIVE
+            MENUITEM "Disable for 1 &hour",         ID_AVAST_DISABLEFOR1HOUR
+            MENUITEM "Disable &until computer is restarted", ID_DISABLEAVAST_UNTIL_RESTART
+            MENUITEM "&Disable permanently",        ID_DISABLEAVAST_PERMANENTLY
+        END
+        MENUITEM "&Silent Mode",         ID__SILENTMODE  , CHECKED
+        MENUITEM "&Quarantine",                ID__SHOWV-IRUSCHEST
+        MENUITEM "R&un Bank Mode",              ID__SAFEZONE
+        MENUITEM SEPARATOR
+        POPUP "&Update"
+        BEGIN
+            MENUITEM "Engine and virus &definitions",    ID_UPDATING_ENGINEANDIT
+            MENUITEM "&Program",                    ID_UPDATING_PROGRAM
+        END
+        MENUITEM SEPARATOR
+        MENUITEM   "Enable Offline Mode"  ,         ID__ENABLENETWORKLOCK
+        MENUITEM "Show &last popup message",    ID__SHOWLASTPOPUPMESSAGE
+        MENUITEM "Subscription &information"  ,   ID__SUBSRIPTIONINFORMATION  , INACTIVE
+        MENUITEM " &About ",                ID__ABOUTAVAST
+    END
+END
