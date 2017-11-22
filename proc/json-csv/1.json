@@ -1,0 +1,20 @@
+{
+    "Configuration": {
+        "es": "Configuration (es)"
+    },
+    "Editor Mode": {
+        "es": "Editor Mode (es)"
+    },
+    "Substitution: $[1]": {
+        "es": "Sustitución: $[1]"
+    },
+    "Login": {
+        "es": "Login (es)"
+    },
+    "Username": {
+        "es": "Username (es)"
+    },
+    "Password": {
+        "es": "Password (es)"
+    }
+}
