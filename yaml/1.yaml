@@ -1,0 +1,18 @@
+test: <%= c_has(:title_how) %>
+benefit_2:
+  'Differentiate: your organization add a powerful, modern,
+  kldafhs: asdf
+  user-friendly: tool to your portfolio.'
+benefit_1:
+  "Differentiate: your organization add a powerful, modern,
+  kldafhs: asdf
+  user-friendly: tool to your portfolio."
+benefit_3: "Differentiate: your organization add a powerful, modern,  kldafhs: asdf user-friendly: tool to your portfolio."
+benefit_4:
+  "Join us in the data-centric recruitment and talent development
+  revolution"
+benefit_5:
+  Join us in the data-centric recruitment and talent development 
+  revolution
+benefit_6: Join us in the data-centric recruitment and talent development 
+  revolution
