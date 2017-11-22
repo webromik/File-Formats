@@ -1,4 +1,6 @@
 test: <%= c_has(:title_how) %>
+test1: '<%= c_has(:title_how) %>'
+test2: "<%= c_has(:title_how) %>"
 benefit_2:
   'Differentiate: your organization add a powerful, modern,
   kldafhs: asdf
