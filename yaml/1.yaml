@@ -18,3 +18,21 @@ benefit_5:
   revolution
 benefit_6: Join us in the data-centric recruitment and talent development 
   revolution
+month_names:
+  -
+  - January
+  - February
+  - March
+  - April
+  - May
+  - June
+  - July
+  - August
+  - September
+  - October
+  - November
+  - December
+order:
+  - :year
+  - :month
+  - :day
